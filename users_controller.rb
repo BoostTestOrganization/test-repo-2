@@ -45,5 +45,7 @@ class UsersController < ApplicationController
     name = params[:name]
     User.where(name: name)  # Safe - uses parameterized query
   end
-
 end
+
+
+
