@@ -46,6 +46,3 @@ class UsersController < ApplicationController
     User.where(name: name)  # Safe - uses parameterized query
   end
 end
-
-
-
