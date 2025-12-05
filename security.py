@@ -65,4 +65,3 @@ if __name__ == "__main__":
     print(f"Database connection: {get_database_connection()}")
     print(f"Weak hash: {weak_hash_example('test')}")
     print(f"Random token: {insecure_random_example()}")
-    print("RANDOM PRINT STATEMENT")
